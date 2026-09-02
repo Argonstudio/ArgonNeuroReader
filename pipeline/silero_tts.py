@@ -131,8 +131,6 @@ def process_silero(book_dir, groups, tts_out, rvc_out, humanized_out, final_out,
     Запускает синтез Silero для уже готовых текстовых групп,
     затем RVC, humanize и склейку в MP3.
     """
-    # ❌ УБРАЛИ ПОВТОРНУЮ ГРУППИРОВКУ!
-    # groups = prepare_groups_silero(groups, SILERO_CHUNK_SYMBOLS)  # ← ЭТА СТРОКА УДАЛЕНА
     
     total_groups = len(groups)
     log_message(f"Silero v5: получено {total_groups} фрагментов", book_dir)
