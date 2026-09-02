@@ -39,12 +39,15 @@ SAMPLE_RATE = 48000
 # НАСТРОЙКИ EDGE-TTS (облачный синтез речи)
 # ============================================================
 
-# Голос для синтеза речи (нейроголос Microsoft Edge).
-# Доступные русские голоса:
+# ПРИМЕЧАНИЕ: Торговая марка "Microsoft Edge" и нейроголоса являются собственностью 
+# корпорации Microsoft. Данное ПО является независимым инструментом автоматизации.
+# Полный список официальных голосов: https://learn.microsoft.com/ru-ru/azure/ai-services/speech-service/language-support
+# ==============================================================================
+
+# Доступные русские голоса Microsoft Azure / Edge:
 #   "ru-RU-DmitryNeural"    — мужской, энергичный
 #   "ru-RU-SvetlanaNeural"  — женский, мягкий
 #   "ru-RU-DariyaNeural"    — женский, нейтральный
-# Полный список: https://learn.microsoft.com/ru-ru/azure/ai-services/speech-service/language-support
 EDGE_SPEAKER = "ru-RU-DmitryNeural"
 
 # Минимальный размер текстового фрагмента (в символах) для одного запроса к Edge TTS.
