@@ -35,7 +35,16 @@ RVC_PYTHON = os.path.join(RVC_DIR, 'venv310', 'Scripts', 'python.exe')
 # Не рекомендуется менять без необходимости.
 SAMPLE_RATE = 48000
 
-# Edge-TTS
+# ============================================================
+# НАСТРОЙКИ EDGE-TTS (облачный синтез речи)
+# ============================================================
+
+# Голос для синтеза речи (нейроголос Microsoft Edge).
+# Доступные русские голоса:
+#   "ru-RU-DmitryNeural"    — мужской, энергичный
+#   "ru-RU-SvetlanaNeural"  — женский, мягкий
+#   "ru-RU-DariyaNeural"    — женский, нейтральный
+# Полный список: https://learn.microsoft.com/ru-ru/azure/ai-services/speech-service/language-support
 EDGE_SPEAKER = "ru-RU-DmitryNeural"
 
 # Минимальный размер текстового фрагмента (в символах) для одного запроса к Edge TTS.
