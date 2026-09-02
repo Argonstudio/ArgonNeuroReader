@@ -22,21 +22,43 @@ GitHub: https://github.com/Argonstudio/ArgonNeuroReader
 import os
 
 # Базовые пути
-BASE_DIR = r'C:\newApp\books\audio_project' #поменять на путь к папке проекта
-BOOK_DIR = os.path.join(BASE_DIR, 'book')
-RVC_DIR = os.path.join(BASE_DIR, 'rvc_engine')
+BASE_DIR = r'C:\newApp\books\audio_project'                                 # поменять на путь к папке проекта
+BOOK_DIR = os.path.join(BASE_DIR, 'book')                                   # откуда брать книгу для озвучки, название папки
+RVC_DIR = os.path.join(BASE_DIR, 'rvc_engine')                              # папка где RVC
 RVC_CLI = os.path.join(RVC_DIR, 'tools', 'infer_cli.py')
 RVC_PYTHON = os.path.join(RVC_DIR, 'venv310', 'Scripts', 'python.exe')
 
 # Общие настройки аудио
+
+# Частота дискретизации (Гц) для всех этапов обработки.
+# 48000 Гц — стандарт для TTS и RVC, обеспечивает высокое качество.
+# Не рекомендуется менять без необходимости.
 SAMPLE_RATE = 48000
 
 # Edge-TTS
 EDGE_SPEAKER = "ru-RU-DmitryNeural"
+
+# Минимальный размер текстового фрагмента (в символах) для одного запроса к Edge TTS.
+# Меньшие значения — больше запросов, но стабильнее при сбоях.
+# 900 символов ≈ 1.5–2 минуты речи.
 EDGE_CHUNK_SYMBOLS_MIN = 900
+
+# Максимальный размер текстового фрагмента (в символах) для одного запроса.
+# Большие фрагменты экономят запросы, но повышают риск ошибки NoAudioReceived.
+# 3000 символов ≈ 4–6 минут речи.
 EDGE_CHUNK_SYMBOLS_MAX = 3000
+
+# Минимальная пауза между успешными запросами к Edge TTS (в секундах).
+# Слишком маленькая пауза может привести к блокировке IP.
 EDGE_DELAY_MIN = 0.5
+
+# Максимальная пауза между успешными запросами (в секундах).
+# Случайная задержка в диапазоне [MIN, MAX] имитирует поведение человека.
 EDGE_DELAY_MAX = 3.0
+
+# Количество параллельных запросов к Edge TTS.
+# Больше — быстрее, но выше риск блокировки и перегрузки сети.
+# Рекомендуется 3–5 для стабильной работы.
 EDGE_PARALLEL = 5
 
 # Silero
