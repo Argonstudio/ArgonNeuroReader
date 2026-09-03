@@ -158,13 +158,14 @@ RVC позволяет обучить модель на основе вашег�
 | **Git** | `2.x` | Клонирование репозитория и управление версиями |
 
 
-
-
 > [!WARNING]
 > **Внимание!** Везде в инструкции используется путь `C:\ArgonNeuroReader`. 
 > Вы можете выбрать любой другой диск и папку, например `D:\Projects\ArgonNeuroReader`. Просто замените путь в командах и в файле конфигурации.
 
 ## Шаг 1: Клонирование репозитория
+
+> [!IMPORTANT]
+> Перед началом установки и использования скриптов обязательно ознакомьтесь с [Юридическим дисклеймером](#%EF%B8%8F-%D1%8E%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B8%D1%81%D0%BA%D0%BB%D0%B5%D0%B9%D0%BC%D0%B5%D1%80-legal-disclaimer) касательно использования неофициальных API и клонирования голосов.
 
 Откройте терминал (Командную строку или PowerShell) и выполните следующие команды:
 
@@ -777,6 +778,9 @@ Currently, the system is optimized for a GPU with 6 GB of VRAM.
 > You can choose any other drive and folder, for example `D:\Projects\ArgonNeuroReader`. Just replace the path in the commands and in the configuration file.
 
 ## 🚀 Step 1: Cloning the Repository
+
+> [!IMPORTANT]
+> Before proceeding with the installation, make sure to read the [Legal Disclaimer](#%EF%B8%8F-legal-disclaimer) regarding the use of unofficial APIs and voice cloning.
 
 Open your terminal (Command Prompt or PowerShell) and run the following commands:
 
