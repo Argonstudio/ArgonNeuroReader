@@ -8,12 +8,12 @@
 | :--- | :--- |
 | • [Что делает программа?](#что-делает-программа) | • [What does the program do?](#what-does-the-program-do) |
 | • [Что получается в итоге?](#что-получается-в-итоге) | • [What is the final result?](#what-is-the-final-result) |
-| • [Обзор возможностей конвейера](#два-режима-синтеза-речи-две-разные-нейросети) <br> *(Режимы, Gemini API, RVC, Humanize, форматы)* | • [Pipeline Features Overview](#two-speech-synthesis-modes-two-different-neural-networks) <br> *(Modes, Gemini API, RVC, Humanize, formats)* |
-| • [🛠️ Системные требования](#️-системные-требования) | • [💻 System Requirements](#️-system-requirements) |
+| • [Обзор возможностей конвейера](#два-режима-синтеза-речи-две-разные-нейросети) | • [Pipeline Features Overview](#two-speech-synthesis-modes-two-different-neural-networks) |
+| • [🛠️ Системные требования](#-системные-требования) | • [💻 System Requirements](#-system-requirements) |
 | • [🚀 Пошаговая установка](#шаг-1-клонирование-репозитория) | • [🚀 Step-by-Step Installation](#-step-1-cloning-the-repository) |
 | • [📁 Итоговая структура папок](#-итоговая-структура-проекта-после-установки) | • [📁 Final Project Structure](#-final-project-structure-after-installation) |
 | • [👤 Автор и благодарности](#автор) | • [👤 Author & Acknowledgements](#-author) |
-
+| • [⚠️ Юридический дисклеймер](#юридический-дисклеймер-legal-disclaimer) | • [⚠️ Legal Disclaimer](#legal-disclaimer) |
 ---
 
 
