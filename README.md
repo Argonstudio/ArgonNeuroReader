@@ -12,7 +12,7 @@
 | • [🛠️ Системные требования](#️-системные-требования) | • [💻 System Requirements](#️-system-requirements) |
 | • [🚀 Пошаговая установка](#шаг-1-клонирование-репозитория) | • [🚀 Step-by-Step Installation](#-step-1-cloning-the-repository) |
 | • [📁 Итоговая структура папок](#-итоговая-структура-проекта-после-установки) | • [📁 Final Project Structure](#-final-project-structure-after-installation) |
-| • [👤 Автор и благодарности](#автор) | • [👤 Author & Credits](#-author) |
+| • [👤 Автор и благодарности](#автор) | • [👤 Author & Acknowledgements](#-author) |
 
 ---
 
