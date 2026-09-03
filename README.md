@@ -18,7 +18,7 @@
 
 ## Что получается в итоге?
 
-Пример звучания книги в переозвучке Edge TTS/Мой голос https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link
+Пример звучания книги в переозвучке Edge TTS/Мой голос <a href="https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link" target="_blank">Открыть пример озвучки на Google диск</a>.
 
 Примеры звучания Silero:
 
