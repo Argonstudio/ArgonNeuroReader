@@ -7,14 +7,31 @@
 ### 🇬🇧 English Version
 - [What does the program do?](#what-does-the-program-do)
 - [What is the final result?](#what-is-the-final-result)
+- [Two speech synthesis modes](#two-speech-synthesis-modes-two-different-neural-networks)
+- [Intelligent text correction via Gemini API](#intelligent-text-correction-via-gemini-api)
+- [Voice conversion via RVC](#voice-conversion-via-rvc-retrieval-based-voice-conversion)
+- [Audio post-processing (Humanize)](#audio-post-processing-humanize)
+- [Reliability and fault tolerance](#reliability-and-fault-tolerance)
+- [Supported book formats](#supported-book-formats)
+- [Flexible final file assembly](#flexible-final-file-assembly)
 - [System requirements](#️-system-requirements)
 - [Installation](#-step-1-cloning-the-repository)
 - [Final Project Structure](#-final-project-structure-after-installation)
 - [Author](#-author)
 
 ### 🇷🇺 Русская версия
+- [Что делает программа?](#что-делает-программа)
 - [Что получается в итоге?](#что-получается-в-итоге)
+- [Два режима синтеза речи](#два-режима-синтеза-речи-две-разные-нейросети)
+- [Интеллектуальная коррекция текста через Gemini API](#интеллектуальная-коррекция-текста-через-gemini-api)
+- [Преобразование голоса через RVC](#преобразование-голоса-через-rvc-retrieval-based-voice-conversion)
+- [Постобработка аудио (Humanize)](#постобработка-аудио-humanize)
+- [Надёжность и отказоустойчивость](#надёжность-и-отказоустойчивость)
+- [Поддержка форматов книг](#поддержка-форматов-книг)
+- [Гибкая сборка итоговых файлов](#гибкая-сборка-итоговых-файлов)
+- [Системные требования](#️-системные-требования)
 - [Установка программы](#шаг-1-клонирование-репозитория)
+- [Итоговая структура проекта](#-итоговая-структура-проекта-после-установки)
 - [Автор](#автор)
 
 
