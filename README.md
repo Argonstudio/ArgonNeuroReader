@@ -607,10 +607,7 @@ Custom prompts can be specified in `pipeline/parsers.py`; they are sent to the n
 The default setup includes:
 
 + Translation into Russian for foreign-language books.
-+ Disambiguation of homographs — words with ambiguous stress:
-
-    - «за́мок» (castle) / «замо́к» (lock)
-    - «сто́ит» (costs) / «стои́т» (stands)
++ Disambiguation of homographs — words with ambiguous stress.
 
 + Restoration of the letter «ё» — «еще» → «ещё»
 + Expansion of numerals — «2025 год» → «две тысячи двадцать пятый год»
@@ -1082,3 +1079,38 @@ C:\ArgonNeuroReader\
 ├── .env                        # Environment file for secret tokens (Gemini API key)
 └── run.bat                     # Windows batch script for quick 1-click execution
 ```
+
+---
+
+## 👤 Author
+
+**Ivan Voitkov**
+
+- 🌐 Website: [argon-studio.ru](https://argon-studio.ru/)
+- 💻 GitHub: [ArgonStudio](https://github.com/Argonstudio)
+- 📦 Repository: [ArgonNeuroReader](https://github.com/Argonstudio/ArgonNeuroReader)
+
+---
+
+## 🙏 Acknowledgements
+
+We express our gratitude to the creators and maintainers of the core technologies that made this project possible:
+
+*   **[RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)** — AI voice conversion and cloning engine.
+*   **[edge-tts](https://github.com/rany2/edge-tts)** — Cloud-based high-quality speech synthesis wrapper.
+*   **[Silero TTS](https://github.com/snakers4/silero-models)** — High-performance local text-to-speech models.
+*   **[Google Gemini](https://ai.google.dev/)** — Advanced LLM API used for text structure and typo correction.
+*   **[librosa](https://librosa.org/)** — Python library for audio and music analysis.
+*   **[pdfplumber](https://github.com/jsvine/pdfplumber)** — Precise text extraction from PDF documents.
+
+---
+
+## ⚠️ Disclaimer
+
+This software is designed exclusively for generating audiobooks from text files for which you possess legal rights. Please respect intellectual property and copyright laws. 
+
+The use of an unofficial Edge TTS API may be rate-limited, restricted, or blocked by Microsoft at any time. It is highly recommended to have a fallback option configured in your setup — such as Silero TTS or the official paid Azure Speech API services.
+
+---
+
+**Ready to roll!** If you encounter any bugs, crashes, or installation issues, please feel free to open an **Issue** in the repository.
