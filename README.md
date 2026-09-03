@@ -18,12 +18,12 @@
 
 ## Что получается в итоге?
 
-Пример звучания книги в переозвучке Edge TTS/Мой голос <a href="https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link" target="_blank">Открыть пример озвучки на Google диск</a>.
+Пример звучания книги в переозвучке Edge TTS/Мой голос: <a href="https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link">Открыть пример озвучки</a>.
 
 Примеры звучания Silero:
 
-+ Silero/Aidar/Мой голос https://drive.google.com/file/d/1uR8xUctQ76N9Ud9S3mV8Qhuc7aR1cS99/view?usp=drive_link
-+ Silero/Aidar/Только чистка голоса от роботизированности https://drive.google.com/file/d/1e4HP8xYwgHehOJkn4904XaG246klK3vO/view?usp=drive_link
++ Silero/Aidar/Мой голос: <a href="https://drive.google.com/file/d/1uR8xUctQ76N9Ud9S3mV8Qhuc7aR1cS99/view?usp=drive_link">Открыть пример озвучки</a>. 
++ Silero/Aidar/Только чистка голоса от роботизированности <a href="https://drive.google.com/file/d/1e4HP8xYwgHehOJkn4904XaG246klK3vO/view?usp=drive_link">Открыть пример озвучки</a>. 
 
 Далее подробное описание возможностей и описание процесса установки.
 
