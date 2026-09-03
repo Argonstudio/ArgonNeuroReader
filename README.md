@@ -487,3 +487,71 @@ pause
 > [!TIP]
 > **Что делает этот скрипт:** Команда `chcp 65001` переводит кодировку консоли Windows в UTF-8. Это необходимо, чтобы названия книг на русском языке и логи генерации текста отображались в окне корректно и без «кракозябр». Теперь для запуска проекта вам достаточно просто дважды кликнуть по файлу `run.bat`.
 
+## 📁 Итоговая структура проекта после установки
+
+После выполнения всех шагов инструкции корневая директория вашего проекта должна выглядеть следующим образом:
+
+```text
+C:\ArgonNeuroReader\
+├── main.py                     # Главный файл запуска конвейера
+├── pipeline/                   # Модули логики обработки текста и звука
+│   ├── config.py               # Конфигурационный файл (настроен под ваши пути)
+│   ├── common.py
+│   ├── edge_tts.py
+│   ├── silero_tts.py
+│   └── parsers.py
+├── book/                       # Директория для исходных книг (.fb2, .pdf)
+│   └── моя_любимая_книга.fb2
+├── output_audio/               # Результаты озвучки (создаётся автоматически)
+├── rvc_engine/                 # Изолированный движок клонирования голоса RVC
+│   ├── assets/                 # Базовые модели-доноры весов
+│   │   ├── hubert/
+│   │   │   └── hubert_base.pt
+│   │   ├── rmvpe/
+│   │   │   └── rmvpe.pt
+│   │   └── pretrained_v2/
+│   │       ├── f0G40k.pth
+│   │       └── f0D40k.pth
+│   ├── logs/
+│   │   └── my_voice/           # Папка с вашей пользовательской моделью
+│   │       ├── my_voice_e300_s2500.pth
+│   │       └── added_xxx.index
+│   ├── tools/
+│   │   └── infer_cli.py
+│   └── venv310/                # Виртуальное окружение RVC (Python 3.10)
+├── venv/                       # Главное виртуальное окружение проекта (Python 3.12)
+├── requirements.txt            # Список основных зависимостей проекта
+├── .env                        # Файл скрытых переменных среды (API-ключи Gemini)
+└── run.bat                     # Скрипт быстрого запуска для Windows в один клик
+```
+
+---
+
+## 👤 Автор
+
+**Ivan Voitkov**
+
+- 🌐 Сайт: [argon-studio.ru](https://argon-studio.ru/)
+- 💻 GitHub: [ArgonStudio](https://github.com/Argonstudio)
+- 📦 Репозиторий: [ArgonNeuroReader](https://github.com/Argonstudio/ArgonNeuroReader)
+
+---
+
+## 🙏 Благодарности
+
+- [RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) — преобразование голоса
+- [edge-tts](https://github.com/rany2/edge-tts) — синтез речи
+- [Silero TTS](https://github.com/snakers4/silero-models) — локальный синтез
+- [Google Gemini](https://ai.google.dev/) — коррекция текста
+- [librosa](https://librosa.org/) — обработка аудио
+- [pdfplumber](https://github.com/jsvine/pdfplumber) — парсинг PDF
+
+---
+
+## ⚠️ Дисклеймер
+
+Программа предназначена для озвучивания книг, на которые у вас есть права. Пожалуйста, уважайте авторские права. Использование неофициального API Edge TTS может быть ограничено Microsoft. Рекомендуется иметь резервный вариант — Silero TTS или официальный Azure Speech.
+
+---
+
+**Готово к использованию!** Если возникнут вопросы — создавайте Issue в репозитории.
