@@ -563,13 +563,74 @@ C:\ArgonNeuroReader\
 
 ---
 
-## ⚠️ Дисклеймер
+## ⚠️ Юридический дисклеймер (Legal Disclaimer)
 
-Программа предназначена для озвучивания книг, на которые у вас есть права. Пожалуйста, уважайте авторские права. Использование неофициального API Edge TTS может быть ограничено Microsoft. Рекомендуется иметь резервный вариант — Silero TTS или официальный Azure Speech.
+### Авторские права на контент
+**ArgonNeuroReader** предназначен исключительно для озвучивания книг и текстов, **на которые у вас есть законные права**. Это могут быть:
+- Книги в общественном достоянии (public domain)
+- Книги, на которые вы приобрели права на озвучивание
+- Собственные произведения
+- Книги с разрешения правообладателя
+
+Озвучивание и распространение аудиокниг, защищённых авторским правом, без разрешения правообладателя является **нарушением законодательства** и может повлечь юридическую ответственность.
+
+### Использование сторонних сервисов
+Программа использует следующие сторонние сервисы и компоненты:
+
+#### Microsoft Edge TTS (неофициальный API)
+- Библиотека `edge-tts` обращается к **неофициальным** endpoint'ам Microsoft (`speech.platform.bing.com`).
+- Эти endpoint'ы **не предназначены** для публичного использования и не входят в официальный Azure Speech Services API.
+- Использование может **нарушать Условия обслуживания Microsoft** (Microsoft Terms of Service).
+- Microsoft может в любой момент **заблокировать доступ**, изменить API или ввести плату.
+- **Автор программы не несёт ответственности** за блокировки, изменения API или юридические последствия использования неофициального API.
+
+#### Google Gemini API
+- Используется официальный API Google Gemini через `google-generativeai` SDK.
+- Подчиняется [Условиям использования Google AI Studio](https://ai.google.dev/terms) и [Политике допустимого использования](https://ai.google.dev/terms/aup).
+- Бесплатный тариф имеет ограничения по количеству запросов.
+
+#### RVC (Retrieval-based Voice Conversion)
+- RVC-Project распространяется под **MIT License** — свободное использование разрешено.
+- Однако **клонирование голосов реальных людей** без их согласия может нарушать:
+  - Права на изображение и голос
+  - Законы о персональных данных (GDPR, 152-ФЗ)
+  - Авторские права на аудиозаписи, использованные для обучения
+- **Ответственность** за использование клонированных голосов лежит **на пользователе**.
+
+### Отказ от гарантий
+Программа предоставляется **«как есть» (AS IS)** без каких-либо гарантий, явных или подразумеваемых, включая, но не ограничиваясь:
+- Гарантии товарной пригодности
+- Гарантии пригодности для конкретной цели
+- Гарантии ненарушения прав третьих лиц
+
+### Ограничение ответственности
+Автор программы **не несёт ответственности** за:
+- Любые прямые или косвенные убытки
+- Потерю данных
+- Блокировку аккаунтов Microsoft/Google
+- Юридические последствия использования программы
+- Нарушение авторских прав пользователем
+
+### Согласие с условиями
+Используя **ArgonNeuroReader**, вы подтверждаете, что:
+1. Понимаете и принимаете все вышеуказанные риски
+2. Имеете законные права на озвучиваемые тексты
+3. Используете голосовые модели с согласия владельцев голосов
+4. Соблюдаете условия использования всех сторонних сервисов
+
+### Рекомендации по законному использованию
+- ✅ Озвучивайте книги в общественном достоянии
+- ✅ Используйте собственные тексты
+- ✅ Получайте разрешение правообладателей
+- ✅ Используйте собственный голос для RVC
+- ✅ Для коммерческого использования Edge TTS рассмотрите официальный [Azure Speech Services](https://azure.microsoft.com/services/cognitive-services/text-to-speech/)
+- ❌ Не распространяйте озвученные книги без прав
+- ❌ Не клонируйте голоса без согласия
+- ❌ Не обходите технические ограничения сервисов
 
 ---
 
-**Готово к использованию!** Если возникнут вопросы — создавайте Issue в репозитории.
+**Используя программу, вы принимаете все риски и соглашаетесь с условиями.**
 
 # ENGLISH VERSION
 
@@ -1120,11 +1181,74 @@ We express our gratitude to the creators and maintainers of the core technologie
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Legal Disclaimer
 
-This software is designed exclusively for generating audiobooks from text files for which you possess legal rights. Please respect intellectual property and copyright laws. 
+### Content Copyright
+**ArgonNeuroReader** is intended solely for narrating books and texts **to which you own the legal rights**. This includes:
+- Books in the public domain
+- Books for which you have purchased audiobook narration rights
+- Your own original works
+- Books used with the copyright holder's permission
 
-The use of an unofficial Edge TTS API may be rate-limited, restricted, or blocked by Microsoft at any time. It is highly recommended to have a fallback option configured in your setup — such as Silero TTS or the official paid Azure Speech API services.
+Narrating and distributing audiobooks protected by copyright without the copyright holder's permission is a **violation of the law** and may result in legal liability.
+
+### Use of Third-Party Services
+The program uses the following third-party services and components:
+
+#### Microsoft Edge TTS (Unofficial API)
+- The `edge-tts` library accesses **unofficial** Microsoft endpoints (`speech.platform.bing.com`).
+- These endpoints are **not intended** for public use and are not part of the official Azure Speech Services API.
+- Usage may **violate Microsoft's Terms of Service**.
+- Microsoft may **block access**, change the API, or introduce fees at any time.
+- **The author of the program is not responsible** for blocks, API changes, or legal consequences arising from the use of the unofficial API.
+
+#### Google Gemini API
+- The official Google Gemini API is used via the `google-generativeai` SDK.
+- It is subject to the [Google AI Studio Terms of Service](https://ai.google.dev/terms) and the [Acceptable Use Policy](https://ai.google.dev/terms/aup).
+- The free tier has request limitations.
+
+#### RVC (Retrieval-based Voice Conversion)
+- RVC-Project is distributed under the **MIT License** — free use is permitted.
+- However, **cloning the voices of real people** without their consent may violate:
+  - Personality and voice rights
+  - Personal data protection laws (GDPR, etc.)
+  - Copyrights of audio recordings used for training
+- **Responsibility** for the use of cloned voices lies **with the user**.
+
+### Disclaimer of Warranties
+The program is provided **"AS IS"** without any warranties, express or implied, including but not limited to:
+- Warranties of merchantability
+- Warranties of fitness for a particular purpose
+- Warranties of non-infringement of third-party rights
+
+### Limitation of Liability
+The author of the program **is not liable** for:
+- Any direct or indirect damages
+- Data loss
+- Microsoft/Google account suspension
+- Legal consequences of using the program
+- Copyright infringement by the user
+
+### Acceptance of Terms
+By using **ArgonNeuroReader**, you confirm that you:
+1. Understand and accept all the risks described above
+2. Hold the legal rights to the texts being narrated
+3. Use voice models with the consent of the voice owners
+4. Comply with the terms of service of all third-party services
+
+### Recommendations for Lawful Use
+- ✅ Narrate books in the public domain
+- ✅ Use your own original texts
+- ✅ Obtain permission from copyright holders
+- ✅ Use your own voice for RVC cloning
+- ✅ For commercial use of Edge TTS, consider the official [Azure Speech Services](https://azure.microsoft.com/services/cognitive-services/text-to-speech/)
+- ❌ Do not distribute narrated books without proper rights
+- ❌ Do not clone voices without consent
+- ❌ Do not circumvent technical limitations of third-party services
+
+---
+
+**By using this program, you accept all risks and agree to the terms.**
 
 ---
 
