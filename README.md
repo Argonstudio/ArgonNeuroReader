@@ -2,6 +2,22 @@
 
 **ArgonNeuroReader** это консольная Python программа для озвучки текста, генерации аудиокниг.
 
+## 📑 Меню
+
+### 🇬🇧 English Version
+- [What does the program do?](#what-does-the-program-do)
+- [What is the final result?](#what-is-the-final-result)
+- [System requirements](#️-system-requirements)
+- [Installation](#-step-1-cloning-the-repository)
+- [Final Project Structure](#-final-project-structure-after-installation)
+- [Author](#-author)
+
+### 🇷🇺 Русская версия
+- [Что получается в итоге?](#что-получается-в-итоге)
+- [Установка программы](#шаг-1-клонирование-репозитория)
+- [Автор](#автор)
+
+
 ## Что делает программа?
 Из переданного .fb2/.pdf/.txt текстового файла генерирует реалистично звучащую аудиокнигу. В том числе можно автоматически перевести и озвучить иностранную книгу на русском.
 
