@@ -10,7 +10,6 @@
 + **Выбираем модель для первоначальной озвучки**.
 
 Облачная **Edge TTS**, более качественная, требует интернет. 
-Пример финального звучания
 
 Локальная **Silero TTS v5**, звук заметно более роботизированный, зато умеет работать с ударениями от Gemini и после глубокой обработки на следующих шагах звучит неплохо.
 
@@ -19,14 +18,12 @@
 
 ## Что получается в итоге?
 
-Пример звучания книги в переозвучке Edge TTS/Мой голос
+Пример звучания книги в переозвучке Edge TTS/Мой голос https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link
 
 Примеры звучания Silero:
 
-+ Silero/Aidar/Мой голос
-+ Silero/Aidar/Только чистка голоса от роботизированности
-+ Silero/Eugene/Мой голос
-+ Silero/Eugene/Только чистка голоса от роботизированности
++ Silero/Aidar/Мой голос https://drive.google.com/file/d/1uR8xUctQ76N9Ud9S3mV8Qhuc7aR1cS99/view?usp=drive_link
++ Silero/Aidar/Только чистка голоса от роботизированности https://drive.google.com/file/d/1e4HP8xYwgHehOJkn4904XaG246klK3vO/view?usp=drive_link
 
 Далее подробное описание возможностей и описание процесса установки.
 
