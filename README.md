@@ -13,9 +13,8 @@
 | • [🚀 Пошаговая установка](#шаг-1-клонирование-репозитория) | • [🚀 Step-by-Step Installation](#-step-1-cloning-the-repository) |
 | • [📁 Итоговая структура папок](#-итоговая-структура-проекта-после-установки) | • [📁 Final Project Structure](#-final-project-structure-after-installation) |
 | • [👤 Автор и благодарности](#автор) | • [👤 Author & Acknowledgements](#-author) |
-| • [⚠️ Юридический дисклеймер](#юридический-дисклеймер-legal-disclaimer) | • [⚠️ Legal Disclaimer](#legal-disclaimer) |
+| • [⚠️ Юридический дисклеймер](#юридический-дисклеймер-legal-disclaimer) | • [⚠️ Legal Disclaimer](#%EF%B8%8F-legal-disclaimer) |
 ---
-
 
 ## Что делает программа?
 Из переданного .fb2/.pdf/.txt текстового файла генерирует реалистично звучащую аудиокнигу. В том числе можно автоматически перевести и озвучить иностранную книгу на русском.
