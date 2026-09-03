@@ -726,7 +726,7 @@ Open your terminal (Command Prompt or PowerShell) and run the following commands
 c:
 
 # Clone the repository into the ArgonNeuroReader folder
-git clone https://github.com
+git clone https://github.com/Argonstudio/ArgonNeuroReader.git
 
 # Navigate into the project folder
 cd ArgonNeuroReader
@@ -774,7 +774,7 @@ pip install torch==2.5.1+cu118 torchaudio==2.5.1+cu118 torchvision==0.20.1+cu118
 Once the download is complete, make sure to test whether your GPU is accessible within PyTorch:
 
 ```bash
-python -c "import torch; print(torch.cuda.is_available()); print(torch.__version__)"
+pip install torch==2.5.1+cu118 torchaudio==2.5.1+cu118 torchvision==0.20.1+cu118 --index-url https://download.pytorch.org/whl/cu118
 ```
 
 **Expected terminal output:**
@@ -820,7 +820,7 @@ Make sure you are inside the root directory of the main project, and clone the R
 cd C:\ArgonNeuroReader
 
 # Clone the official RVC engine into the rvc_engine subfolder
-git clone https://github.com rvc_engine
+git clone https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI.git rvc_engine
 
 # Navigate into the cloned engine directory
 cd rvc_engine
@@ -857,7 +857,7 @@ python --version
 Install the strictly compatible version of the framework:
 
 ```bash
-pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://pytorch.org
+pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
 ```
 
 ### 5.4. Installing RVC Dependencies
