@@ -167,6 +167,9 @@ RVC позволяет обучить модель на основе вашег�
 > [!IMPORTANT]
 > Перед началом установки и использования скриптов обязательно ознакомьтесь с [Юридическим дисклеймером](#%EF%B8%8F-%D1%8E%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B8%D1%81%D0%BA%D0%BB%D0%B5%D0%B9%D0%BC%D0%B5%D1%80-legal-disclaimer) касательно использования неофициальных API и клонирования голосов.
 
+> [!IMPORTANT]
+> Для упрощения попросите Deepseek/Gemini или другой ИИ помочь с установкой. Они разберутся и при необходимости смогут внести правки в код.
+
 Откройте терминал (Командную строку или PowerShell) и выполните следующие команды:
 
 ```bash
@@ -781,6 +784,9 @@ Currently, the system is optimized for a GPU with 6 GB of VRAM.
 
 > [!IMPORTANT]
 > Before proceeding with the installation, make sure to read the [Legal Disclaimer](#%EF%B8%8F-legal-disclaimer) regarding the use of unofficial APIs and voice cloning.
+
+> [!IMPORTANT]
+> To simplify setup, ask DeepSeek/Gemini or another AI to help with the installation. They will figure it out and, if necessary, can make changes to the code.
 
 Open your terminal (Command Prompt or PowerShell) and run the following commands:
 
