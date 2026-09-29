@@ -655,8 +655,7 @@ It generates a realistic-sounding audiobook from an input `.fb2` / `.pdf` / `.tx
 
 Example of a book narrated using Edge TTS / My voice clone:
 
-* 🎬 **[YouTube Video]([https://youtu.be](https://youtu.be/txs1eiecoso))** 
-* 🎵 **[Google Drive Audio Sample]([https://google.com](https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link))** 
+* 🎬 **[YouTube Video](https://youtu.be/txs1eiecoso)** 
 
 Silero audio samples:
 
