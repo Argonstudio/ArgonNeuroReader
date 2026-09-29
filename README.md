@@ -9,7 +9,7 @@
 | • [Что делает программа?](#что-делает-программа) | • [What does the program do?](#what-does-the-program-do) |
 | • [Что получается в итоге?](#что-получается-в-итоге) | • [What is the final result?](#what-is-the-final-result) |
 | • [Обзор возможностей конвейера](#два-режима-синтеза-речи-две-разные-нейросети) | • [Pipeline Features Overview](#two-speech-synthesis-modes-two-different-neural-networks) |
-| • [🛠️ Системные требования](#system-requirements) | • [💻 System Requirements](#system-requirements) |
+| • [🛠️ Системные требования](#system-requirements) | • [💻 System Requirements](#%EF%B8%8F-system-requirements) |
 | • [🚀 Пошаговая установка](#шаг-1-клонирование-репозитория) | • [🚀 Step-by-Step Installation](#-step-1-cloning-the-repository) |
 | • [📁 Итоговая структура папок](#-итоговая-структура-проекта-после-установки) | • [📁 Final Project Structure](#-final-project-structure-after-installation) |
 | • [👤 Автор и благодарности](#автор) | • [👤 Author & Acknowledgements](#-author) |
