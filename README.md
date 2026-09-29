@@ -31,7 +31,7 @@
 
 ## Что получается в итоге?
 
-Пример звучания книги в переозвучке Edge TTS/Мой голос: <a href="https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link">Открыть пример озвучки</a>.
+Пример звучания книги в переозвучке Edge TTS/Мой голос: <a href="https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link">Открыть пример озвучки в Google файлах</a> или <a href="https://youtu.be/txs1eiecoso">Смотреть на Youtube</a>.
 
 Примеры звучания Silero:
 
@@ -653,7 +653,10 @@ It generates a realistic-sounding audiobook from an input `.fb2` / `.pdf` / `.tx
 
 ## What is the final result?
 
-Example of a book narrated using Edge TTS / My voice clone: <a href="https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link">Open audio sample</a>.
+Example of a book narrated using Edge TTS / My voice clone:
+
+* 🎬 **[YouTube Video]([https://youtu.be](https://youtu.be/txs1eiecoso))** 
+* 🎵 **[Google Drive Audio Sample]([https://google.com](https://drive.google.com/file/d/1mQtj4c0SPY2yOdax7M6NsAkFxYcolBbD/view?usp=drive_link))** 
 
 Silero audio samples:
 
