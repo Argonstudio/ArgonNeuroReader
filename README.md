@@ -546,7 +546,7 @@ C:\ArgonNeuroReader\
 
 ## 👤 Автор
 
-**Ivan Voitkov**
+**Ivan Voitkov** voit.ne@gmail.com
 
 - 🌐 Сайт: [argon-studio.ru](https://argon-studio.ru/)
 - 💻 GitHub: [ArgonStudio](https://github.com/Argonstudio)
@@ -1170,7 +1170,7 @@ C:\ArgonNeuroReader\
 
 ## 👤 Author
 
-**Ivan Voitkov**
+**Ivan Voitkov** voit.ne@gmail.com
 
 - 🌐 Website: [argon-studio.ru](https://argon-studio.ru/)
 - 💻 GitHub: [ArgonStudio](https://github.com/Argonstudio)
