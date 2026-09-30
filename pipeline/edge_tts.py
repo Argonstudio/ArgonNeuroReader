@@ -38,7 +38,7 @@ import threading
 import glob
 import soundfile as sf
 import librosa
-import edge_tts  # Теперь гарантированно импортирует оригинальный пакет pip edge-tts
+import edge_tts  
 
 from pipeline.common import clean_edge_audio
 
