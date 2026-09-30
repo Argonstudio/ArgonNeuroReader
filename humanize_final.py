@@ -293,10 +293,10 @@ def humanize_audio(input_path, output_path,
             {'freq': 5200, 'q': 3.5, 'threshold_db': -26, 'reduction_db': -7},
             {'freq': 6000, 'q': 4.0, 'threshold_db': -27, 'reduction_db': -9},
             {'freq': 6800, 'q': 4.0, 'threshold_db': -28, 'reduction_db': -10},
-            {'freq': 7800, 'q': 4.5, 'threshold_db': -30, 'reduction_db': -14},  # основной свист
+            {'freq': 7800, 'q': 4.5, 'threshold_db': -30, 'reduction_db': -14},  # основной
             {'freq': 8800, 'q': 5.0, 'threshold_db': -32, 'reduction_db': -14},
             {'freq': 10000, 'q': 5.5, 'threshold_db': -34, 'reduction_db': -14},
-            {'freq': 11500, 'q': 6.0, 'threshold_db': -36, 'reduction_db': -14},  # очень лёгкое
+            {'freq': 11500, 'q': 6.0, 'threshold_db': -36, 'reduction_db': -14},  
             {'freq': 12500, 'q': 6.0, 'threshold_db': -36, 'reduction_db': -14},  # очень лёгкое
         ]
     data = multiband_deesser(data, sr, bands_config)
