@@ -23,7 +23,7 @@ import numpy as np
 from scipy import signal
 import random
 
-# --- 1. Инструменты чистки (оставлены как есть) ---
+# --- 1. Инструменты чистки ---
 def apply_lowpass(audio, sr, cutoff_hz=4500, steepness=10, mix=1.0):
     nyquist = sr / 2.0
     if cutoff_hz >= nyquist or mix == 0: return audio
