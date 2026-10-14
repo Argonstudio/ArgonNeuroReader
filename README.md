@@ -581,11 +581,12 @@ C:\ArgonNeuroReader\
 Программа использует следующие сторонние сервисы и компоненты:
 
 #### Microsoft Edge TTS (неофициальный API)
-- Библиотека `edge-tts` обращается к **неофициальным** endpoint'ам Microsoft (`speech.platform.bing.com`).
-- Эти endpoint'ы **не предназначены** для публичного использования и не входят в официальный Azure Speech Services API.
-- Использование может **нарушать Условия обслуживания Microsoft** (Microsoft Terms of Service).
-- Microsoft может в любой момент **заблокировать доступ**, изменить API или ввести плату.
-- **Автор программы не несёт ответственности** за блокировки, изменения API или юридические последствия использования неофициального API.
+
+Программа **ArgonNeuroReader** использует библиотеку edge-tts, которая обращается к внутренним, неофициальным endpoint'ам Microsoft. Данный компонент предназначен **исключительно для демонстрации** возможностей интеграции TTS в конвейер обработки книг и **не должен использоваться в коммерческих или публичных проектах**.
+
+Использование edge-tts в коммерческих целях является прямым нарушением Условий обслуживания Microsoft и может повлечь за собой юридическую ответственность. Для любого коммерческого использования, а также для получения гарантированной поддержки и стабильности, необходимо использовать официальный API Microsoft Azure AI Speech. 
+
+Автор программы не несёт ответственности за любые последствия, связанные с использованием данного неофициального компонента.
 
 #### Google Gemini API
 - Используется официальный API Google Gemini через `google-generativeai` SDK.
@@ -1207,11 +1208,11 @@ Narrating and distributing audiobooks protected by copyright without the copyrig
 The program uses the following third-party services and components:
 
 #### Microsoft Edge TTS (Unofficial API)
-- The `edge-tts` library accesses **unofficial** Microsoft endpoints (`speech.platform.bing.com`).
-- These endpoints are **not intended** for public use and are not part of the official Azure Speech Services API.
-- Usage may **violate Microsoft's Terms of Service**.
-- Microsoft may **block access**, change the API, or introduce fees at any time.
-- **The author of the program is not responsible** for blocks, API changes, or legal consequences arising from the use of the unofficial API.
+The **ArgonNeuroReader** program uses the edge-tts library, which accesses internal, **unofficial Microsoft endpoints**. This component is intended solely to demonstrate the capabilities of TTS integration into a book processing pipeline and must **not be used in commercial or public projects**.
+
+Using edge-tts for commercial purposes is a direct violation of Microsoft's Terms of Service and may entail legal liability. For any commercial use, as well as to obtain guaranteed support and stability, you must use the official Microsoft Azure AI Speech API.
+
+The author of the program is not responsible for any consequences related to the use of this unofficial component.
 
 #### Google Gemini API
 - The official Google Gemini API is used via the `google-generativeai` SDK.
