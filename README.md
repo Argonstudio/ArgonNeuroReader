@@ -636,6 +636,12 @@ C:\ArgonNeuroReader\
 
 **Используя программу, вы принимаете все риски и соглашаетесь с условиями.**
 
+## 💼 Коммерческая поддержка
+
+Если вам требуется доработка **ArgonNeuroReader** для использования официального API **Microsoft Azure AI Speech** (для коммерческих проектов, с гарантированной поддержкой и стабильностью) или другие доработки, пожалуйста, свяжитесь со мной:
+
+📧 **Email:** voit.ne@gmail.com
+
 # ENGLISH VERSION
 
 **ArgonNeuroReader** is a console-based Python application for text-to-speech synthesis and audiobook generation.
@@ -1261,6 +1267,26 @@ By using **ArgonNeuroReader**, you confirm that you:
 ---
 
 **By using this program, you accept all risks and agree to the terms.**
+
+---
+
+## 💼 Commercial Support & Custom Development
+
+While **ArgonNeuroReader** is free and open-source (Apache 2.0) for personal, non-commercial use, I offer paid services for commercial adaptation and custom development.
+
+**Services include:**
+
+- **Migration to the official Microsoft Azure AI Speech API** — for commercial projects that require guaranteed stability, official support, and legal compliance.
+- **Integration with other TTS engines** — ElevenLabs, Google Cloud TTS, Amazon Polly, or any other provider.
+- **Custom voice cloning and RVC model training** — tailored to your specific voice, brand, or character.
+- **Performance optimization** — for large-scale batch processing and high-volume audiobook production.
+- **UI/UX development** — desktop or web interface for easier operation and management.
+- **Deployment and automation** — setting up the pipeline on your servers, Docker, or cloud infrastructure (AWS, GCP, Azure).
+- **Other custom features** — contact me to discuss your specific requirements.
+
+For inquiries and quotes, please reach out:
+
+📧 **Email:** voit.ne@gmail.com
 
 ---
 
