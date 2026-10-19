@@ -1,6 +1,6 @@
-# Ключевые возможности
-
 **ArgonNeuroReader** это консольная Python программа для озвучки текста, генерации аудиокниг.
+**ArgonNeuroReader** is a command-line Python application for text-to-speech voiceover and audiobook generation.
+
 
 ## 📑 Навигация / Table of Contents
 
